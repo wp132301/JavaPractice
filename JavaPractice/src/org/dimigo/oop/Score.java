@@ -32,9 +32,9 @@ public class Score {
 		StringBuilder sb = new StringBuilder();
 		sb.append("<<점수 출력>>\n");
 		
-		sb.append(String.format("국어 점수 출력 : %d\n", kor));
-		sb.append(String.format("수학 점수 출력 : %d\n", math));
-		sb.append(String.format("영어 점수 출력 : %d\n", eng));
+		sb.append(String.format("국어 점수 출력 : %d점\n", kor));
+		sb.append(String.format("수학 점수 출력 : %d점\n", math));
+		sb.append(String.format("영어 점수 출력 : %d점\n", eng));
 		sb.append(String.format("총점 : %d\n", kor+eng+math));
 		sb.append(String.format("평균 : %.1f\n", (kor+eng+math)/3.0));
 		
