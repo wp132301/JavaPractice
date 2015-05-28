@@ -26,7 +26,7 @@ public class IdolGroup {
 		
 		for(int i=0; i<idolGroup.length; i++) {
 			
-			System.out.println(idolGroup[i]);
+			System.out.println("<< " + idolGroup[i] + "멤버 >>");
 			
 			for(String member : members[i]) {
 				System.out.println(member);
